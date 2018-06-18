@@ -64,3 +64,10 @@ def vote(request, question_id):
         # user hits the Back button.
         return HttpResponseRedirect(reverse('polls:results', args=(question.id,)))
 
+
+def hello(request):
+    for k in sorted(request.META):
+        print('key:%s,  value:%s' % (k, request.META[k]))
+    print(request.GET)
+    return HttpResponse('Hello World')
+

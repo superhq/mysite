@@ -21,4 +21,5 @@ urlpatterns = [
     path('upload/', include('upload.urls')),
     path('photo_collector', include('photo_collector.urls')),
     path('admin/', admin.site.urls),
+    path('dfs_photo/', include('dfs_photo.urls'))
 ]

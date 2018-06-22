@@ -1,5 +1,5 @@
 # coding:utf-8
-from django.shortcuts import render,reverse
+from django.shortcuts import render, reverse
 from django.http import StreamingHttpResponse, HttpResponseRedirect
 from os import path, walk
 from .forms import UploadForm

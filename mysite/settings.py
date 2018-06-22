@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'polls.apps.PollsConfig',
     'upload.apps.UploadConfig',
     'photo_collector.apps.PhotoCollectorConfig',
+    'dfs_photo.apps.DfsPhotoConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

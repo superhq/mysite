@@ -126,3 +126,12 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 DFS_CNF = os.path.join(BASE_DIR, 'dfs_photo/config.ini')
+
+
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# EMAIL_USE_SSL = True
+# EMAIL_HOST = 'smtp.exmail.qq.com'
+# EMAIL_PORT = 465
+# EMAIL_HOST_USER = ''
+# EMAIL_HOST_PASSWORD = ''
+# DEFAULT_FROM_EMAIL = ''
